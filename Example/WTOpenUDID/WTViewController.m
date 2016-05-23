@@ -7,8 +7,11 @@
 //
 
 #import "WTViewController.h"
+#import "WTOpenUDID.h"
 
 @interface WTViewController ()
+
+@property (weak, nonatomic) IBOutlet UILabel *udidLabel;
 
 @end
 
@@ -17,13 +20,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+	
+    NSString *text = [NSString stringWithFormat:@"UDID -> %@", [WTOpenUDID openUDID]];
+    self.udidLabel.text = text;
 }
 
 @end

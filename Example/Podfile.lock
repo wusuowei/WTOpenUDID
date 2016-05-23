@@ -1,0 +1,20 @@
+PODS:
+  - OpenUDID (1.0.0)
+  - SSKeychain (1.4.0)
+  - WTOpenUDID (0.1.0):
+    - OpenUDID (~> 1.0.0)
+    - SSKeychain (~> 1.4.0)
+
+DEPENDENCIES:
+  - WTOpenUDID (from `../`)
+
+EXTERNAL SOURCES:
+  WTOpenUDID:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
+  SSKeychain: c71293fa57216a40ab06c23f4085387583293de4
+  WTOpenUDID: 307c9d8e0dcbd220a05ee3546ffc4b11af290edd
+
+COCOAPODS: 0.39.0

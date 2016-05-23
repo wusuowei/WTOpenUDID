@@ -2,13 +2,4 @@ use_frameworks!
 
 target 'WTOpenUDID_Example' do
   pod 'WTOpenUDID', :path => '../'
-
-  target 'WTOpenUDID_Tests' do
-    inherit! :search_paths
-
-    pod 'Specta'
-  pod 'Expecta'
-  pod 'FBSnapshotTestCase'
-  pod 'Expecta+Snapshots'
-  end
 end

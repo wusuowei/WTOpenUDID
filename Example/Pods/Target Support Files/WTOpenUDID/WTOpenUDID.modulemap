@@ -1,0 +1,6 @@
+framework module WTOpenUDID {
+  umbrella header "WTOpenUDID-umbrella.h"
+
+  export *
+  module * { export * }
+}
