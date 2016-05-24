@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 You can use this tool to get unique device identifier. The udid will not change even you uninstall your app from yuor device.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/WTOpenUDID'
+  s.homepage         = 'https://github.com/wusuowei/WTOpenUDID'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wentianen' => '1206860151@qq.com' }
@@ -36,7 +36,7 @@ You can use this tool to get unique device identifier. The udid will not change 
   #   'WTOpenUDID' => ['WTOpenUDID/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'WTOpenUDID/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'OpenUDID', '~> 1.0.0'
   s.dependency 'SSKeychain', '~> 1.4.0'
